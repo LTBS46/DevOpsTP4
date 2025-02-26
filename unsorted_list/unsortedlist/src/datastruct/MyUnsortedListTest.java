@@ -25,6 +25,7 @@ public class MyUnsortedListTest {
 		assertFalse("liste non vide empty", list.isEmpty());
 	
 	}
+	//truc
 	
 	@Test
 	// Met en evidence un probleme de mise a jour de size lors du remove
@@ -80,6 +81,7 @@ public class MyUnsortedListTest {
 		
 		list.remove(0);
 			}
+	//truc
 	@Test
 	public void Removelast() {
 		UnsortedList<Integer> list = MyUnsortedList.of();
